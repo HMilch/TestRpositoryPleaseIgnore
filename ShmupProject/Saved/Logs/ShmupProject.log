@@ -1,0 +1,771 @@
+﻿Log file open, 03/31/17 15:16:16
+LogInit:Display: Running engine for game: ShmupProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(381980652) SRandInit(381980653).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.084975
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: I:/Programme/UT4/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.31-13.16.16:599][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.31-13.16.16:599][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.31-13.16.16:605][  0]LogInit: Computer: SEBI-PC
+[2017.03.31-13.16.16:605][  0]LogInit: User: Sebi
+[2017.03.31-13.16.16:605][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.31-13.16.16:605][  0]LogInit: High frequency timer resolution =3.320341 MHz
+[2017.03.31-13.16.16:605][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.03.31-13.16.16:605][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.31-13.16.16:605][  0]LogMemory: Process Physical Memory: 191.89 MB used, 191.89 MB peak
+[2017.03.31-13.16.16:605][  0]LogMemory: Process Virtual Memory: 197.26 MB used, 197.26 MB peak
+[2017.03.31-13.16.16:605][  0]LogMemory: Physical Memory: 6557.44 MB used, 16335.23 MB total
+[2017.03.31-13.16.16:605][  0]LogMemory: Virtual Memory: 523.52 MB used, 8388608.00 MB total
+[2017.03.31-13.16.16:656][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.03.31-13.16.17:033][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.31-13.16.17:052][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.03.31-13.16.17:052][  0]LogD3D11RHI:       4010/0/7911 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.31-13.16.17:052][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.31-13.16.17:057][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.31-13.16.17:057][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.31-13.16.17:057][  0]LogWindows: EnumDisplayDevices:
+[2017.03.31-13.16.17:057][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.03.31-13.16.17:058][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.31-13.16.17:058][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.31-13.16.17:059][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.31-13.16.17:059][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.03.31-13.16.17:059][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.03.31-13.16.17:059][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.03.31-13.16.17:059][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.03.31-13.16.17:059][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.03.31-13.16.17:059][  0]LogD3D11RHI:   Driver Version: 368.39 (internal:10.18.13.6839, unified:368.39)
+[2017.03.31-13.16.17:059][  0]LogD3D11RHI:      Driver Date: 6-2-2016
+[2017.03.31-13.16.17:059][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.31-13.16.17:069][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.31-13.16.17:083][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.31-13.16.17:083][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Intermediate/Shaders/WorkingDirectory/4860/).
+[2017.03.31-13.16.17:083][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sebi/AppData/Local/Temp/UnrealShaderWorkingDir/54E0A05B41D48EECC77B77A656655BEA/'.
+[2017.03.31-13.16.17:083][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.31-13.16.18:112][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.31-13.16.18:122][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.31-13.16.18:132][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.31-13.16.18:143][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.31-13.16.18:153][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.31-13.16.18:161][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.31-13.16.18:170][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.31-13.16.18:178][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.31-13.16.18:186][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.31-13.16.18:197][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.31-13.16.18:204][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.31-13.16.18:220][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.31-13.16.18:220][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.31-13.16.18:222][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.31-13.16.18:247][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.31-13.16.18:257][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.31-13.16.18:265][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.31-13.16.18:273][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.31-13.16.18:283][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.31-13.16.18:283][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.31-13.16.18:427][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.31-13.16.18:469][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/Sebi/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.03.31-13.16.18:470][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sebi/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.03.31-13.16.18:470][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.31-13.16.18:470][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.31-13.16.18:470][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.31-13.16.18:470][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.31-13.16.18:486][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.31-13.16.18:498][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sebi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.31-13.16.18:716][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.31-13.16.18:717][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.31-13.16.18:912][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.31-13.16.18:912][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.31-13.16.18:912][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.31-13.16.19:188][  0]LogAssetRegistry: FAssetRegistry took 0.0198 seconds to start up
+[2017.03.31-13.16.19:204][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.012564 seconds
+[2017.03.31-13.16.19:208][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.03.31-13.16.19:208][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.03.31-13.16.19:208][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.31-13.16.19:221][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.31-13.16.19:467][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.31-13.16.19:467][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.31-13.16.20:189][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.31-13.16.20:465][  0]SourceControl: Info Source control is disabled
+[2017.03.31-13.16.20:467][  0]SourceControl: Info Source control is disabled
+[2017.03.31-13.16.20:489][  0]SourceControl: Info Source control is disabled
+[2017.03.31-13.16.20:511][  0]SourceControl: Info Source control is disabled
+[2017.03.31-13.16.20:678][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.03.31-13.16.20:678][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2017.03.31-13.16.20:678][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2017.03.31-13.16.20:978][  0]LogEngine: Initializing Engine...
+[2017.03.31-13.16.20:980][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.03.31-13.16.20:981][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.03.31-13.16.21:116][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.03.31-13.16.21:126][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.31-13.16.21:139][  0]LogInit: FAudioDevice initialized.
+[2017.03.31-13.16.21:164][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Sebi/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.03.31-13.16.21:170][  0]LogInit: Texture streaming: Enabled
+[2017.03.31-13.16.21:203][  0]LogInit: Transaction tracking system initialized
+[2017.03.31-13.16.21:240][  0]BlueprintLog: New page: Editor Load
+[2017.03.31-13.16.21:412][  0]LocalizationService: Info Localization service is disabled
+[2017.03.31-13.16.21:643][  0]LogConsoleResponse:Display: 
+[2017.03.31-13.16.21:757][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.03.31-13.16.21:757][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.31-13.16.21:968][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/' took 0.02s
+[2017.03.31-13.16.21:968][  0]SourceControl: Info Source control is disabled
+[2017.03.31-13.16.21:969][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 I:/Programme/UT4/Epic Games/4.12/FeaturePacks/StarterContent.upack)
+[2017.03.31-13.16.22:236][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.03.31-13.16.22:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.03.31-13.16.22:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.03.31-13.16.22:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.03.31-13.16.22:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.03.31-13.16.22:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.03.31-13.16.22:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.03.31-13.16.22:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.03.31-13.16.22:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.03.31-13.16.22:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.03.31-13.16.22:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.03.31-13.16.22:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.03.31-13.16.22:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.03.31-13.16.22:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.03.31-13.16.22:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.03.31-13.16.22:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.03.31-13.16.22:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.03.31-13.16.22:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.03.31-13.16.22:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Fire01.uasset"
+[2017.03.31-13.16.22:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.03.31-13.16.22:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.03.31-13.16.22:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.03.31-13.16.23:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Light01.uasset"
+[2017.03.31-13.16.23:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.03.31-13.16.23:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Light02.uasset"
+[2017.03.31-13.16.23:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.03.31-13.16.23:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.03.31-13.16.23:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.03.31-13.16.23:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.03.31-13.16.23:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.03.31-13.16.23:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.03.31-13.16.23:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.03.31-13.16.23:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.03.31-13.16.23:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.03.31-13.16.24:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Steam01.uasset"
+[2017.03.31-13.16.24:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.03.31-13.16.24:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.03.31-13.16.24:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.03.31-13.16.24:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.03.31-13.16.24:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.03.31-13.16.24:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.03.31-13.16.24:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.03.31-13.16.24:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.03.31-13.16.24:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.03.31-13.16.24:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.03.31-13.16.24:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.03.31-13.16.24:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.03.31-13.16.24:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.03.31-13.16.24:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.03.31-13.16.24:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.03.31-13.16.24:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.03.31-13.16.24:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.03.31-13.16.30:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.03.31-13.16.30:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.03.31-13.16.31:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.03.31-13.16.32:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Maps/StarterMap.umap"
+[2017.03.31-13.16.32:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.03.31-13.16.32:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.03.31-13.16.32:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.03.31-13.16.32:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.03.31-13.16.32:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.03.31-13.16.32:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.03.31-13.16.32:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.03.31-13.16.32:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.03.31-13.16.32:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.03.31-13.16.32:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.03.31-13.16.32:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.03.31-13.16.32:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.03.31-13.16.32:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.03.31-13.16.32:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.03.31-13.16.32:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.03.31-13.16.32:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.03.31-13.16.32:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.03.31-13.16.32:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.03.31-13.16.32:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.03.31-13.16.32:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.03.31-13.16.32:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.03.31-13.16.32:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.03.31-13.16.32:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.03.31-13.16.32:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.03.31-13.16.32:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.03.31-13.16.32:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.03.31-13.16.32:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.03.31-13.16.32:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.03.31-13.16.32:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.03.31-13.16.32:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.03.31-13.16.32:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.03.31-13.16.32:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.03.31-13.16.32:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.03.31-13.16.32:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.03.31-13.16.32:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.03.31-13.16.32:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.03.31-13.16.32:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.03.31-13.16.32:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.03.31-13.16.32:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.03.31-13.16.32:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.03.31-13.16.32:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.03.31-13.16.32:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.03.31-13.16.33:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.03.31-13.16.33:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.03.31-13.16.33:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.03.31-13.16.33:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.03.31-13.16.33:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.03.31-13.16.33:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.03.31-13.16.33:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.03.31-13.16.33:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.03.31-13.16.33:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.03.31-13.16.33:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.03.31-13.16.33:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.03.31-13.16.33:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.03.31-13.16.33:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.03.31-13.16.33:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.03.31-13.16.33:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.03.31-13.16.33:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.03.31-13.16.33:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.03.31-13.16.33:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.03.31-13.16.33:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.03.31-13.16.33:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.03.31-13.16.33:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.03.31-13.16.33:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.03.31-13.16.33:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_Door.uasset"
+[2017.03.31-13.16.33:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.03.31-13.16.33:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.03.31-13.16.33:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.03.31-13.16.33:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.03.31-13.16.33:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.03.31-13.16.33:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.03.31-13.16.33:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.03.31-13.16.33:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.03.31-13.16.33:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.03.31-13.16.33:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.03.31-13.16.33:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.03.31-13.16.33:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.03.31-13.16.33:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.03.31-13.16.33:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.03.31-13.16.33:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.03.31-13.16.33:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.03.31-13.16.33:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.03.31-13.16.33:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.03.31-13.16.33:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.03.31-13.16.33:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.03.31-13.16.33:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.03.31-13.16.33:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.03.31-13.16.33:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.03.31-13.16.33:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.03.31-13.16.33:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.03.31-13.16.33:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.03.31-13.16.33:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.03.31-13.16.33:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.03.31-13.16.33:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.03.31-13.16.33:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.03.31-13.16.33:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.03.31-13.16.34:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.03.31-13.16.34:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.03.31-13.16.34:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.03.31-13.16.34:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.03.31-13.16.34:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.03.31-13.16.34:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.03.31-13.16.34:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.03.31-13.16.34:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.03.31-13.16.34:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.03.31-13.16.34:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.03.31-13.16.34:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.03.31-13.16.34:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.03.31-13.16.34:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.03.31-13.16.34:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.03.31-13.16.35:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.03.31-13.16.35:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.03.31-13.16.35:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.03.31-13.16.36:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.03.31-13.16.37:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.03.31-13.16.38:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.03.31-13.16.38:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.03.31-13.16.39:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.03.31-13.16.40:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.03.31-13.16.40:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.03.31-13.16.40:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.03.31-13.16.40:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.03.31-13.16.40:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.03.31-13.16.40:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.03.31-13.16.40:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.03.31-13.16.40:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.03.31-13.16.40:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.03.31-13.16.40:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.03.31-13.16.40:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.03.31-13.16.40:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.03.31-13.16.40:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.03.31-13.16.40:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.03.31-13.16.40:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.03.31-13.16.40:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.03.31-13.16.40:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.03.31-13.16.41:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.03.31-13.16.41:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.03.31-13.16.41:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.03.31-13.16.41:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.03.31-13.16.41:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.03.31-13.16.41:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.03.31-13.16.41:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.03.31-13.16.41:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.03.31-13.16.41:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.03.31-13.16.41:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.03.31-13.16.41:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.03.31-13.16.41:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.03.31-13.16.41:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.03.31-13.16.41:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.03.31-13.16.41:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.03.31-13.16.41:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.03.31-13.16.41:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.03.31-13.16.41:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.03.31-13.16.41:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.03.31-13.16.41:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.03.31-13.16.41:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.03.31-13.16.41:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.03.31-13.16.41:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.03.31-13.16.41:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.03.31-13.16.41:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.03.31-13.16.42:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.03.31-13.16.42:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.03.31-13.16.42:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.03.31-13.16.42:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.03.31-13.16.42:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.03.31-13.16.42:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.03.31-13.16.42:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.03.31-13.16.42:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.03.31-13.16.42:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.03.31-13.16.42:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.03.31-13.16.42:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.03.31-13.16.42:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.03.31-13.16.42:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.03.31-13.16.42:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.03.31-13.16.42:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.03.31-13.16.42:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.03.31-13.16.42:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.03.31-13.16.42:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.03.31-13.16.42:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.03.31-13.16.42:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.03.31-13.16.42:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.03.31-13.16.43:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.03.31-13.16.43:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.03.31-13.16.43:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.03.31-13.16.43:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.03.31-13.16.43:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.03.31-13.16.43:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.03.31-13.16.43:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.03.31-13.16.43:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.03.31-13.16.43:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.03.31-13.16.43:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.03.31-13.16.43:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.03.31-13.16.43:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.03.31-13.16.43:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.03.31-13.16.43:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.03.31-13.16.43:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.03.31-13.16.43:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.03.31-13.16.43:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.03.31-13.16.43:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.03.31-13.16.43:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.03.31-13.16.43:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.03.31-13.16.43:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.03.31-13.16.43:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.03.31-13.16.43:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.03.31-13.16.43:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.03.31-13.16.43:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.03.31-13.16.43:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.03.31-13.16.43:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.03.31-13.16.43:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.03.31-13.16.43:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.03.31-13.16.43:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.03.31-13.16.43:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.03.31-13.16.43:880][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2017.03.31-13.16.43:961][  0]LogSavePackage: Save=8.65ms
+[2017.03.31-13.16.43:961][  0]LogSavePackage: Moving 'C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Saved/Floor_400x4008A66D8504A4E8A3294D26597B57BBA4F.tmp' to 'C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.03.31-13.16.43:964][  0]LogSavePackage:Display: Finished SavePackage C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.03.31-13.16.43:964][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.03.31-13.16.43:965][  0]Cmd: MAP LOAD FILE="C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.31-13.16.43:966][  0]LightingResults: New page: Lighting Build
+[2017.03.31-13.16.43:970][  0]MapCheck: New page: Map Check
+[2017.03.31-13.16.43:970][  0]LightingResults: New page: Lighting Build
+[2017.03.31-13.16.44:440][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.03.31-13.16.44:543][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.03.31-13.16.44:577][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.03.31-13.16.44:607][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2017.03.31-13.16.44:642][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2017.03.31-13.16.44:674][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2017.03.31-13.16.44:689][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2017.03.31-13.16.44:699][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.03.31-13.16.44:756][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.03.31-13.16.44:775][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.03.31-13.16.44:792][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2017.03.31-13.16.44:812][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2017.03.31-13.16.44:827][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2017.03.31-13.16.44:831][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2017.03.31-13.16.44:841][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.03.31-13.16.44:900][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.03.31-13.16.44:918][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2017.03.31-13.16.44:932][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2017.03.31-13.16.44:949][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2017.03.31-13.16.44:965][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2017.03.31-13.16.44:974][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2017.03.31-13.16.44:984][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2017.03.31-13.16.45:001][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.03.31-13.16.45:005][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2017.03.31-13.16.45:010][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2017.03.31-13.16.45:015][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2017.03.31-13.16.45:019][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2017.03.31-13.16.45:019][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2017.03.31-13.16.45:162][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.03.31-13.16.45:170][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.31-13.16.45:170][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.31-13.16.45:278][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 108.058ms to complete.
+[2017.03.31-13.16.45:279][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 1.313
+[2017.03.31-13.16.45:531][  0]LogCollectionManager: Loaded 0 collections in 0.003758 seconds
+[2017.03.31-13.16.45:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Saved/Collections/' took 0.01s
+[2017.03.31-13.16.45:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/Developers/Sebi/Collections/' took 0.01s
+[2017.03.31-13.16.45:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebi/Documents/GitHub/TestRpositoryPleaseIgnore/ShmupProject/Content/Collections/' took 0.01s
+[2017.03.31-13.16.45:575][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.03.31-13.16.45:582][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2047 classes and 369 folders.
+[2017.03.31-13.16.45:588][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.31-13.16.45:588][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.31-13.16.45:588][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2017.03.31-13.16.45:596][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.03.31-13.16.45:711][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.31-13.16.45:772][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.03.31-13.16.45:873][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.31-13.16.45:877][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.31-13.16.45:905][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.03.31-13.16.45:905][  0]LogLoad: Full Startup: 30.35 seconds (BP compile: 0.06 seconds)
+[2017.03.31-13.16.45:905][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.31-13.16.45:905][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.31-13.16.45:920][  0]LogOcInput: OculusInput pre-init called
+[2017.03.31-13.16.45:943][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.31-13.16.46:210][  0]LogRenderer: Reallocating scene render targets to support 1056x556 (Frame:3).
+[2017.03.31-13.16.46:266][  1]LogAssetRegistry: Asset discovery search completed in 27.0985 seconds
+[2017.03.31-13.16.46:266][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.31-13.16.46:266][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.03.31-13.16.49:861][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.31-13.16.51:073][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.31-13.16.51:102][483]PIE: New page: PIE session: TwinStickExampleMap (Mar 31, 2017, 4:16:51 PM)
+[2017.03.31-13.16.51:102][483]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2017.03.31-13.16.51:107][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005108s)
+[2017.03.31-13.16.51:108][483]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.03.31-13.16.51:108][483]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2017.03.31-13.16.51:108][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005854s)
+[2017.03.31-13.16.51:133][483]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.31-13.16.51:141][483]LogInit: FAudioDevice initialized.
+[2017.03.31-13.16.51:218][483]LogWorld: Game class is 'TwinStickGameMode_C'
+[2017.03.31-13.16.51:222][483]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2017.03.31-15.16.51
+[2017.03.31-13.16.51:222][483]LogWorld: Bringing up level for play took: 0.003081
+[2017.03.31-13.16.51:227][483]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.03.31-13.16.51:228][483]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.119
+[2017.03.31-13.17.06:384][279]LogTexture:Display: Building textures: icon_Editor_Preferences_General_40x (BGRA8)
+[2017.03.31-13.17.06:390][279]LogTexture:Display: Building textures: icon_ShowSkeletalMeshes_40x (BGRA8)
+[2017.03.31-13.17.06:394][279]LogTexture:Display: Building textures: Foliage (BGRA8)
+[2017.03.31-13.17.06:483][279]LogTexture:Display: Building textures: IOS (BGRA8)
+[2017.03.31-13.17.06:488][279]LogTexture:Display: Building textures: android_Icon (BGRA8)
+[2017.03.31-13.17.23:216][261]LogLinker:Warning: Can't find file '/Game/TwinStickBP/Meshes/CubeMesh'
+[2017.03.31-13.17.23:216][261]LogLinker:Warning: Can't find file '/Game/TwinStickBP/Meshes/CubeMesh'
+[2017.03.31-13.17.23:216][261]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TwinStickBP/Meshes/CubeMesh.CubeMesh'
+[2017.03.31-13.17.23:216][261]LogLinker:Warning: Can't find file '/Game/TwinStickBP/Meshes/UFO'
+[2017.03.31-13.17.23:217][261]LogLinker:Warning: Can't find file '/Game/TwinStickBP/Meshes/UFO'
+[2017.03.31-13.17.23:217][261]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TwinStickBP/Meshes/UFO.UFO'
+[2017.03.31-13.17.23:217][261]LogLinker:Warning: Can't find file '/Game/TwinStickBP/Meshes/CubeMesh'
+[2017.03.31-13.17.23:217][261]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TwinStickBP/Meshes/CubeMesh.CubeMesh'
+[2017.03.31-13.17.23:217][261]LogLinker:Warning: Can't find file '/Game/TwinStickBP/Meshes/UFO'
+[2017.03.31-13.17.23:217][261]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TwinStickBP/Meshes/UFO.UFO'
+[2017.03.31-13.17.24:527][417]LogLinker:Warning: Can't find file '/Game/TwinStickBP/Audio/TemplateTSS_WeaponFire'
+[2017.03.31-13.17.24:528][417]LogLinker:Warning: Can't find file '/Game/TwinStickBP/Audio/TemplateTSS_WeaponFire'
+[2017.03.31-13.17.24:528][417]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TwinStickBP/Audio/TemplateTSS_WeaponFire.TemplateTSS_WeaponFire'
+[2017.03.31-13.17.24:528][417]LogLinker:Warning: Can't find file '/Game/TwinStickBP/Audio/TemplateTSS_WeaponFire'
+[2017.03.31-13.17.24:528][417]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/TwinStickBP/Audio/TemplateTSS_WeaponFire.TemplateTSS_WeaponFire'
+[2017.03.31-13.17.32:332][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.31-13.17.32:332][311]PIE: New page: PIE session: TwinStickExampleMap (Mar 31, 2017, 4:17:32 PM)
+[2017.03.31-13.17.32:332][311]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2017.03.31-13.17.32:338][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005861s)
+[2017.03.31-13.17.32:339][311]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.03.31-13.17.32:339][311]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2017.03.31-13.17.32:339][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.006646s)
+[2017.03.31-13.17.32:359][311]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.31-13.17.32:367][311]LogInit: FAudioDevice initialized.
+[2017.03.31-13.17.32:413][311]LogWorld: Game class is 'TwinStickGameMode_C'
+[2017.03.31-13.17.32:417][311]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2017.03.31-15.17.32
+[2017.03.31-13.17.32:417][311]LogWorld: Bringing up level for play took: 0.002722
+[2017.03.31-13.17.32:418][311]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.691
+[2017.03.31-13.17.36:756][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.31-13.17.36:756][819]PIE: New page: PIE session: TwinStickExampleMap (Mar 31, 2017, 4:17:36 PM)
+[2017.03.31-13.17.36:756][819]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2017.03.31-13.17.36:761][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005100s)
+[2017.03.31-13.17.36:761][819]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.03.31-13.17.36:761][819]LogPlayLevel: PIE: World Init took: (0.000456s)
+[2017.03.31-13.17.36:762][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005762s)
+[2017.03.31-13.17.36:775][819]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.31-13.17.36:782][819]LogInit: FAudioDevice initialized.
+[2017.03.31-13.17.36:827][819]LogWorld: Game class is 'TwinStickGameMode_C'
+[2017.03.31-13.17.36:830][819]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2017.03.31-15.17.36
+[2017.03.31-13.17.36:830][819]LogWorld: Bringing up level for play took: 0.002692
+[2017.03.31-13.17.36:831][819]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.277
+[2017.03.31-13.17.42:816][453]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2017.03.31-13.18.00:229][304]Cmd: QUIT_EDITOR
+[2017.03.31-13.18.00:341][304]LogExit: Preparing to exit.
+[2017.03.31-13.18.01:352][304]LogExit: Editor shut down
+[2017.03.31-13.18.01:352][304]LogExit: Transaction tracking system shut down
+[2017.03.31-13.18.01:507][304]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.31-13.18.01:507][304]LogExit: Object subsystem successfully closed.
+[2017.03.31-13.18.01:526][304]LogD3D11RHI: Shutdown
+[2017.03.31-13.18.01:526][304]LogD3D11RHI: CleanupD3DDevice
+[2017.03.31-13.18.01:567][304]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.31-13.18.01:574][304]LogModuleManager: Shutting down and abandoning module BlueprintGraph (215)
+[2017.03.31-13.18.01:575][304]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2017.03.31-13.18.01:575][304]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.03.31-13.18.01:575][304]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.03.31-13.18.01:575][304]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.03.31-13.18.01:575][304]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.03.31-13.18.01:575][304]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.03.31-13.18.01:576][304]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.03.31-13.18.01:576][304]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.03.31-13.18.01:576][304]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.03.31-13.18.01:577][304]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.03.31-13.18.01:578][304]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.03.31-13.18.01:578][304]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.03.31-13.18.01:578][304]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.03.31-13.18.01:578][304]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.03.31-13.18.01:578][304]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.03.31-13.18.02:570][304]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.03.31-13.18.02:571][304]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.03.31-13.18.02:571][304]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.03.31-13.18.02:571][304]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.03.31-13.18.02:571][304]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.03.31-13.18.02:621][304]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.03.31-13.18.02:621][304]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.03.31-13.18.02:621][304]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.03.31-13.18.02:621][304]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.03.31-13.18.02:621][304]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.03.31-13.18.02:621][304]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.03.31-13.18.02:621][304]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.03.31-13.18.02:621][304]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.03.31-13.18.02:621][304]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.03.31-13.18.02:621][304]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.03.31-13.18.02:622][304]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.03.31-13.18.02:687][304]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.03.31-13.18.02:688][304]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.03.31-13.18.02:688][304]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.03.31-13.18.02:688][304]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.03.31-13.18.02:689][304]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.03.31-13.18.02:689][304]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.03.31-13.18.02:689][304]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.03.31-13.18.02:789][304]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.03.31-13.18.02:790][304]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.03.31-13.18.02:790][304]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.03.31-13.18.02:790][304]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.03.31-13.18.02:790][304]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.03.31-13.18.02:791][304]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.03.31-13.18.02:791][304]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.03.31-13.18.02:791][304]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.03.31-13.18.02:791][304]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.03.31-13.18.02:791][304]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.03.31-13.18.02:791][304]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.03.31-13.18.02:792][304]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.03.31-13.18.02:843][304]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.03.31-13.18.02:843][304]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.03.31-13.18.02:843][304]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.03.31-13.18.02:843][304]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.03.31-13.18.02:996][304]LogDerivedDataCache: Shutdown
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.03.31-13.18.02:996][304]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.03.31-13.18.02:997][304]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.03.31-13.18.02:997][304]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.03.31-13.18.02:997][304]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.03.31-13.18.02:997][304]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.03.31-13.18.02:997][304]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.03.31-13.18.02:997][304]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.03.31-13.18.02:997][304]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.03.31-13.18.02:997][304]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.03.31-13.18.04:497][304]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.03.31-13.18.04:497][304]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.03.31-13.18.04:497][304]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.03.31-13.18.04:497][304]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.31-13.18.04:497][304]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.31-13.18.04:497][304]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.31-13.18.04:497][304]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.31-13.18.04:499][304]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.31-13.18.04:499][304]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.31-13.18.04:499][304]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.31-13.18.04:499][304]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.31-13.18.04:500][304]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.31-13.18.04:500][304]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.31-13.18.04:500][304]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.31-13.18.04:500][304]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.31-13.18.04:500][304]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.31-13.18.04:500][304]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.31-13.18.04:501][304]LogExit: Exiting.
+[2017.03.31-13.18.04:510][304]Log file closed, 03/31/17 15:18:04
